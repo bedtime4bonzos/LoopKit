@@ -23,7 +23,8 @@ public enum InsulinType: Int, Codable, CaseIterable {
         case .humalog:
             return LocalizedString("Humalog (insulin lispro)", comment: "Title for Humalog insulin type")
         case .apidra:
-            return LocalizedString("Apidra (insulin glulisine)", comment: "Title for Apidra insulin type")
+            // return LocalizedString("Apidra (insulin glulisine)", comment: "Title for Apidra insulin type")
+            return LocalizedString("Fiasp/Novolog Mix", comment: "Title for Apidra insulin type")            
         case .fiasp:
             return LocalizedString("Fiasp", comment: "Title for Fiasp insulin type")
         case .lyumjev:
@@ -40,7 +41,8 @@ public enum InsulinType: Int, Codable, CaseIterable {
         case .humalog:
             return LocalizedString("Humalog", comment: "Brand name for humalog insulin type")
         case .apidra:
-            return LocalizedString("Apidra", comment: "Brand name for apidra insulin type")
+            // return LocalizedString("Apidra", comment: "Brand name for apidra insulin type")
+            return LocalizedString("Fiasp/Novolog Mix", comment: "Brand name for apidra insulin type")
         case .fiasp:
             return LocalizedString("Fiasp", comment: "Brand name for fiasp insulin type")
         case .lyumjev:
@@ -57,7 +59,8 @@ public enum InsulinType: Int, Codable, CaseIterable {
         case .humalog:
             return LocalizedString("Humalog (insulin lispro) is a rapid-acting insulin made by Eli Lilly", comment: "Description for humalog insulin type")
         case .apidra:
-            return LocalizedString("Apidra (insulin glulisine) is a rapid-acting insulin made by Sanofi-aventis ", comment: "Description for apidra insulin type")
+            // return LocalizedString("Apidra (insulin glulisine) is a rapid-acting insulin made by Sanofi-aventis ", comment: "Description for apidra insulin type")
+            return LocalizedString("Fiasp/Novolog Mix", comment: "Description for apidra insulin type")
         case .fiasp:
             return LocalizedString("Fiasp is a mealtime insulin aspart formulation with the addition of nicotinamide (vitamin B3) made by Novo Nordisk", comment: "Description for fiasp insulin type")
         case .lyumjev:

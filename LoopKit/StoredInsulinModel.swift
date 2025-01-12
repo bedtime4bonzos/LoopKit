@@ -13,6 +13,7 @@ public struct StoredInsulinModel: Codable, Equatable {
         case afrezza
         case fiasp
         case lyumjev
+        case apidra
         case rapidAdult
         case rapidChild
     }
@@ -41,6 +42,8 @@ public extension StoredInsulinModel {
             modelType = .fiasp
         case .lyumjev:
             modelType = .lyumjev
+        case .apidra:
+            modelType = .apidra
         case .rapidActingAdult:
             modelType = .rapidAdult
         case .rapidActingChild:
