@@ -12,6 +12,7 @@ public enum ExponentialInsulinModelPreset: String, Codable {
     case rapidActingChild
     case fiasp
     case lyumjev
+    case apidra
     case afrezza
 }
 
@@ -28,6 +29,8 @@ extension ExponentialInsulinModelPreset {
             return .minutes(360)
         case .lyumjev:
             return .minutes(360)
+        case .apidra:
+            return .minutes(360)			
         case .afrezza:
             return .minutes(300)
         }
@@ -43,6 +46,8 @@ extension ExponentialInsulinModelPreset {
             return .minutes(55)
         case .lyumjev:
             return .minutes(55)
+        case .apidra:	
+            return .minutes(60)
         case.afrezza:
             return .minutes(29)
         }
@@ -58,6 +63,8 @@ extension ExponentialInsulinModelPreset {
             return .minutes(10)
         case .lyumjev:
             return .minutes(10)
+        case .apidra:
+            return .minutes(10)			
         case.afrezza:
             return .minutes(10)
         }
